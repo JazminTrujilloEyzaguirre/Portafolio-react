@@ -1,0 +1,25 @@
+a{
+  grid-column: span 6;
+}
+.card{
+  padding: 2rem;
+  background-color: #f8f8f8;
+  margin: 1rem;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 10px;
+}
+.card h3{
+  font-size: 30px;
+}
+.card p{
+  font-size: 13px;
+  text-align: justify;
+}
+
+.card:hover{
+  background-color: #111;
+  color: white
+}
+.card:hover p{
+  color: white
+}
