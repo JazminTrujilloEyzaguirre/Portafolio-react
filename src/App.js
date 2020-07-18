@@ -3,8 +3,6 @@ import './css/style.css'
 import { Card } from './components/Card'
 import { works } from './data/works'
 
-import image from './img/avatar2.jpeg'
-
 function App() {
 
   return (
@@ -59,7 +57,7 @@ function App() {
             <div className="about container">
             <div className="col-left">
                 <div className="about-img">
-                <img src={image} alt="img"></img>
+                <img src='https://i.imgur.com/viFDGup.jpg' alt="img"></img>
                 </div>
             </div>
             <div className="col-right">
